@@ -240,9 +240,9 @@ export default async function Home({
                       <li>
                         <a
                           className="hover:text-slate-900 dark:hover:text-slate-300"
-                          href="https://aifusion.zizdlp.com/ios"
+                          href="https://linchat.zizdlp.com/ios"
                         >
-                          AIFusion APP
+                          LinChat APP
                         </a>
                       </li>
                       <li>
@@ -272,9 +272,9 @@ export default async function Home({
                 </Link>
                 <Link href="/" className="flex-col items-center">
                   <h1 className="font-bold text-xl md:text-2xl dark:text-slate-50 cursor-pointer px-4">
-                    AI
+                    Lin
                     <span className="text-blue-500 dark:text-blue-400">
-                      Fusion
+                      Chat
                     </span>
                   </h1>
                   <span className="font-sm px-4">

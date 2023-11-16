@@ -32,8 +32,8 @@ export default function NavBar(props: NavBarProps) {
             height={36}
           />
           <p className="font-bold text-xl md:text-2xl">
-            AI
-            <span className="text-blue-500 dark:text-blue-400">Fusion</span>
+            Lin
+            <span className="text-blue-500 dark:text-blue-400">Chat</span>
           </p>
         </Link>
       </div>
