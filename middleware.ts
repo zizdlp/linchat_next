@@ -38,7 +38,21 @@ export function middleware(request: NextRequest) {
       "/ios_home_light.png",
       "/ios_user_dark.png",
       "/ios_user_light.png",
-
+      "/chat_dark_iphone.png",
+      "/chat_light_iphone.png",
+      "/chat_light_mac.png",
+      "/chat_dark_mac.png",
+      "/download_dark_iphone.svg",
+      "/download_dark_mac.svg",
+      "/app/image.57x57.png",
+      "/app/image.512x512.png",
+      "/app/linchat.ipa",
+      "/app/manifest.plist",
+      "/app/linchat-92B82479-F54B-445F-BE13-DDD9754885BE.ipa",
+      "/app/linchat-119EA553-3286-4854-B6F9-6E88064D5D63.ipa",
+      "/app/linchat-441DF788-8179-4B12-B434-2EEB1CF37166.ipa",
+      "/app/linchat-626CE320-D22A-4331-91AB-1047ECDBE6B5.ipa",
+      "/app/linchat-D3DE4B07-A859-4CBA-9215-07E18287D454.ipa"
       // Your other files in `public`
     ].includes(pathname)
   )
