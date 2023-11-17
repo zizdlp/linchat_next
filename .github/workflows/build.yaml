@@ -21,7 +21,7 @@ jobs:
         name: Build and push linchat next
         uses: docker/build-push-action@v4
         with:
-          context: "{{defaultContext}}:linchat_next"
+          context: "{{defaultContext}}"
           file: linchat_next.Dockerfile
           build-args: |
             NEXT_PUBLIC_HOME_URL=https://linchat.zizdlp.com/
