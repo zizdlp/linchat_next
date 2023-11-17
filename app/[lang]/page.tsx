@@ -70,7 +70,7 @@ export default async function Home({
                     }
                   </p>
                   <div className="mt-12 hidden lg:flex">
-                    <Link href="itms-services://?action=download-manifest&url=https://zizdlp.github.io/app/manifest.plist">
+                    <Link href="itms-services://?action=download-manifest&url=https://linchat.zizdlp.com/app/manifest.plist">
                       <Image
                         src="/download_dark_iphone.svg"
                         alt="Picture of logo"
