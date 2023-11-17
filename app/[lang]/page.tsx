@@ -101,13 +101,15 @@ export default async function Home({
                     </div>
                   </div>
                   <div className="relative mt-16 flex flex-col sm:flex-row sm:justify-center lg:hidden">
-                    <Image
-                      src="/download_dark_iphone.svg"
-                      alt="Picture of logo"
-                      width={160}
-                      height={512}
-                      className="relative rounded-md p-4  dark:block "
-                    />
+                    <Link href="itms-services://?action=download-manifest&url=https://linchat.zizdlp.com/app/manifest.plist">
+                      <Image
+                        src="/download_dark_iphone.svg"
+                        alt="Picture of logo"
+                        width={160}
+                        height={512}
+                        className="relative rounded-md p-4  dark:block "
+                      />
+                    </Link>
                     <Image
                       src="/download_dark_mac.svg"
                       alt="Picture of logo"
