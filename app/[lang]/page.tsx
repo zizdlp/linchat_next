@@ -70,18 +70,22 @@ export default async function Home({
                     }
                   </p>
                   <div className="mt-12 hidden lg:flex">
-                    <Link
-                      href="/auth/register"
-                      className="rounded-full  py-2 px-6 font-semibold focus:outline-none focus:ring-2 bg-sky-500 text-slate-50 hover:bg-sky-400 scale-100 hover:scale-110  dark:bg-sky-300 dark:text-slate-900 dark:hover:bg-sky-200 dark:hover:text-slate-900 dark:focus:ring-slate-500"
-                    >
-                      {dictionary["home-page"]["Register Now"]}
+                    <Link href="itms-services://?action=download-manifest&url=https://zizdlp.github.io/app/manifest.plist">
+                      <Image
+                        src="/download_dark_iphone.svg"
+                        alt="Picture of logo"
+                        width={160}
+                        height={512}
+                        className="relative rounded-md p-4  dark:block "
+                      />
                     </Link>
-                    <Link
-                      href="/auth/login"
-                      className="ml-6 rounded-full   py-2 px-6 font-semibold  focus:outline-none focus:ring-2  bg-slate-900 text-slate-50 hover:bg-slate-700 scale-100 hover:scale-110   dark:bg-slate-700 dark:text-slate-100 dark:hover:bg-slate-600 dark:hover:text-white dark:focus:ring-slate-500"
-                    >
-                      {dictionary["home-page"]["Sign In"]}
-                    </Link>
+                    <Image
+                      src="/download_dark_mac.svg"
+                      alt="Picture of logo"
+                      width={200}
+                      height={512}
+                      className="relative rounded-md p-4  dark:block "
+                    />
                   </div>
                 </div>
                 <div className="relative mt-24 flex-none lg:mt-0 lg:w-80">
@@ -97,19 +101,20 @@ export default async function Home({
                     </div>
                   </div>
                   <div className="relative mt-16 flex flex-col sm:flex-row sm:justify-center lg:hidden">
-                    <Link
-                      href={`/auth/register`}
-                      className="rounded-full  py-2 px-6 text-center font-semibold focus:outline-none focus:ring-2  bg-sky-500 text-slate-50 hover:bg-sky-400  dark:bg-sky-300 dark:text-slate-900 dark:hover:bg-sky-200 dark:hover:text-slate-900 dark:focus:ring-slate-500"
-                    >
-                      {dictionary["home-page"]["Register Now"]}
-                    </Link>
-
-                    <Link
-                      href={`/auth/login`}
-                      className="mt-6 rounded-full  py-2 px-6 text-center focus:outline-none focus:ring-2 bg-slate-900   text-slate-50 hover:bg-slate-700  dark:bg-slate-700 dark:text-slate-100 dark:hover:bg-slate-600 dark:hover:text-white dark:focus:ring-slate-500 font-semibold  sm:ml-6 sm:mt-0"
-                    >
-                      {dictionary["home-page"]["Sign In"]}
-                    </Link>
+                    <Image
+                      src="/download_dark_iphone.svg"
+                      alt="Picture of logo"
+                      width={160}
+                      height={512}
+                      className="relative rounded-md p-4  dark:block "
+                    />
+                    <Image
+                      src="/download_dark_mac.svg"
+                      alt="Picture of logo"
+                      width={200}
+                      height={512}
+                      className="relative rounded-md p-4  dark:block "
+                    />
                   </div>
                 </div>
               </div>
@@ -120,18 +125,31 @@ export default async function Home({
             <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8">
               <div className="mt-6 sm:mt-10 relative z-10 rounded-xl md:px-10  border-2 border-dotted border-slate-400	 dark:border-sky-500">
                 <div className="flex  flex-col xl:flex-row p-4 	items-center ">
-                  
                   <Image
-                    src="/dark_home.png"
+                    src="/chat_dark_iphone.png"
                     alt="Picture of logo"
-                    width={1024}
+                    width={300}
                     height={512}
                     className="relative rounded-md p-4 hidden dark:block "
                   />
                   <Image
-                    src="/light_home.png"
+                    src="/chat_dark_mac.png"
                     alt="Picture of logo"
-                    width={1024}
+                    width={900}
+                    height={512}
+                    className="relative rounded-md p-4 hidden dark:block "
+                  />
+                  <Image
+                    src="/chat_light_iphone.png"
+                    alt="Picture of logo"
+                    width={300}
+                    height={512}
+                    className=" relative rounded-md p-4 dark:hidden"
+                  />
+                  <Image
+                    src="/chat_light_mac.png"
+                    alt="Picture of logo"
+                    width={900}
                     height={512}
                     className=" relative rounded-md p-4 dark:hidden"
                   />
