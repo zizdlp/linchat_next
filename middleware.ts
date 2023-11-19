@@ -48,11 +48,11 @@ export function middleware(request: NextRequest) {
       "/app/image.512x512.png",
       "/app/linchat.ipa",
       "/app/manifest.plist",
-      "/app/linchat-92B82479-F54B-445F-BE13-DDD9754885BE.ipa",
-      "/app/linchat-119EA553-3286-4854-B6F9-6E88064D5D63.ipa",
-      "/app/linchat-441DF788-8179-4B12-B434-2EEB1CF37166.ipa",
-      "/app/linchat-626CE320-D22A-4331-91AB-1047ECDBE6B5.ipa",
-      "/app/linchat-D3DE4B07-A859-4CBA-9215-07E18287D454.ipa"
+      "/app/linchat-7A3C45E3-B0D2-4FF0-ACE3-222899C94203.ipa",
+      "/app/linchat-7B19935A-BC44-4481-990D-F4338B9E31FF.ipa",
+      "/app/linchat-8ADCB7EB-DC52-4B20-8D74-DCB11DE2571A.ipa",
+      "/app/linchat-54CE1D9D-3A80-416B-B6CE-7D9785231072.ipa",
+      "/app/linchat-B4CEC5B2-AF27-426F-BA07-87BAF932278B.ipa"
       // Your other files in `public`
     ].includes(pathname)
   )
