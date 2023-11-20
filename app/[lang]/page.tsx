@@ -268,9 +268,9 @@ export default async function Home({
                       <li>
                         <a
                           className="hover:text-slate-900 dark:hover:text-slate-300"
-                          href="https://zizdlp.com/"
+                          href="https://zizdlp.com/privacy"
                         >
-                          AIWIKI
+                          隐私
                         </a>
                       </li>
                     </ul>
