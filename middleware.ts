@@ -47,6 +47,7 @@ export function middleware(request: NextRequest) {
       "/app/image.57x57.png",
       "/app/image.512x512.png",
       "/app/linchat.ipa",
+      "/app/linchat.dmg",
       "/app/manifest.plist",
       "/app/linchat-08F0E06B-5E6B-4F38-BF5B-4C0586921706.ipa",
       "/app/linchat-69F2213C-C241-4DBB-8476-BE2E0CA33F70.ipa",

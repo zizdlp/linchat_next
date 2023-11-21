@@ -79,13 +79,15 @@ export default async function Home({
                         className="relative rounded-md p-4  dark:block "
                       />
                     </Link>
-                    <Image
-                      src="/download_dark_mac.svg"
-                      alt="Picture of logo"
-                      width={200}
-                      height={512}
-                      className="relative rounded-md p-4  dark:block "
-                    />
+                    <Link href="https://linchat.zizdlp.com/app/linchat.dmg">
+                      <Image
+                        src="/download_dark_mac.svg"
+                        alt="Picture of logo"
+                        width={200}
+                        height={512}
+                        className="relative rounded-md p-4  dark:block "
+                      />
+                    </Link>
                   </div>
                 </div>
                 <div className="relative mt-24 flex-none lg:mt-0 lg:w-80">
@@ -110,13 +112,15 @@ export default async function Home({
                         className="relative rounded-md p-4  dark:block "
                       />
                     </Link>
-                    <Image
-                      src="/download_dark_mac.svg"
-                      alt="Picture of logo"
-                      width={200}
-                      height={512}
-                      className="relative rounded-md p-4  dark:block "
-                    />
+                    <Link href="https://linchat.zizdlp.com/app/linchat.dmg">
+                      <Image
+                        src="/download_dark_mac.svg"
+                        alt="Picture of logo"
+                        width={200}
+                        height={512}
+                        className="relative rounded-md p-4  dark:block "
+                      />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -270,7 +274,15 @@ export default async function Home({
                           className="hover:text-slate-900 dark:hover:text-slate-300"
                           href="https://zizdlp.com/privacy"
                         >
-                          隐私
+                          隐私政策
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          className="hover:text-slate-900 dark:hover:text-slate-300"
+                          href="https://zizdlp.com/service"
+                        >
+                          服务协议
                         </a>
                       </li>
                     </ul>
