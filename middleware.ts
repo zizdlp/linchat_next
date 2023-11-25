@@ -49,10 +49,10 @@ export function middleware(request: NextRequest) {
       "/app/linchat.ipa",
       "/app/linchat.dmg",
       "/app/manifest.plist",
-      "/app/linchat-08F0E06B-5E6B-4F38-BF5B-4C0586921706.ipa",
-      "/app/linchat-69F2213C-C241-4DBB-8476-BE2E0CA33F70.ipa",
-      "/app/linchat-027885A7-B1A6-4A65-97B8-1106108E65C3.ipa",
-      "/app/linchat-F9D5DE3A-BE9C-4D71-8DAB-54D5A3F1F108.ipa"
+      "/app/linchat-78E7A04F-815C-4A17-8FFF-4524C662C1C9.ipa",
+      "/app/linchat-03892D09-17D5-4E6D-AA65-BC4E8E03D3BA.ipa",
+      "/app/linchat-D229854A-F322-4A6A-ABF9-8C92ADBF214E.ipa",
+      "/app/linchat-F26B0A76-9742-4396-A567-F35D4B7886AB.ipa"
       // Your other files in `public`
     ].includes(pathname)
   )
