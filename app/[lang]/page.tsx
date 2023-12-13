@@ -295,8 +295,8 @@ export default async function Home({
                   className="md:mr-1 flex-none w-[1.8rem] overflow-hidden md:w-auto"
                 >
                   <Image
-                    src="/logo.svg"
-                    className=" w-10 h-10 "
+                    src="/64.png"
+                    className="w-10 h-10 rounded-md"
                     alt="LOGO"
                     width={50}
                     height={50}
@@ -312,6 +312,9 @@ export default async function Home({
                   <span className="font-sm px-4">
                     {dictionary["home-page"]["All rights reserved."]}
                   </span>
+                </Link>
+                <Link href="https://beian.miit.gov.cn/" className="flex-col items-center">
+                  ©2023 zizdlp.com 版权所有 豫ICP备2022029046号-1
                 </Link>
               </div>
             </div>

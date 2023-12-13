@@ -29,7 +29,7 @@ export function middleware(request: NextRequest) {
     [
       "/manifest.json",
       "/favicon.ico",
-      "/logo.svg",
+      "/64.png",
       "/bg.avif",
       "/login.svg",
       "/light_home.png",

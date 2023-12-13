@@ -25,9 +25,9 @@ export default function NavBar(props: NavBarProps) {
           className="flex items-center justify-center space-x-2 overflow-hidden cursor-pointer"
         >
           <Image
-            src="/logo.svg"
+            src="/64.png "
             alt="Picture of logo"
-            className="w-6 h-6 md:w-9 md:h-9 my-2"
+            className="w-6 h-6 md:w-9 md:h-9 my-2  rounded-md"
             width={36}
             height={36}
           />

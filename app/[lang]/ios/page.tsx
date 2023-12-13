@@ -275,8 +275,8 @@ export default async function Home({
                   className="md:mr-1 flex-none w-[1.8rem] overflow-hidden md:w-auto"
                 >
                   <Image
-                    src="/logo.svg"
-                    className=" w-10 h-10 "
+                    src="/64.png"
+                    className=" w-10 h-10  rounded-md"
                     alt="LOGO"
                     width={50}
                     height={50}
