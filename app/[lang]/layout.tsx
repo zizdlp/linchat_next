@@ -24,7 +24,7 @@ export default function RootLayout({
   return (
     <html lang={params.lang} suppressHydrationWarning>
       <head>
-        <link rel="icon" href="/64.png" sizes="any" />
+        <link rel="icon" href="/60.png" sizes="any" />
       </head>
       <body className="antialiased text-slate-500 dark:text-slate-400 bg-white dark:bg-slate-900 min-h-screen">
         <ThemeToggleProvider>

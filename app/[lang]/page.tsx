@@ -70,7 +70,7 @@ export default async function Home({
                     }
                   </p>
                   <div className="mt-12 hidden lg:flex">
-                    <Link href="itms-services://?action=download-manifest&url=https://linchat.zizdlp.com/app/manifest.plist">
+                    <Link href="https://apps.apple.com/app/id6472197439">
                       <Image
                         src="/download_dark_iphone.svg"
                         alt="Picture of logo"
@@ -79,7 +79,7 @@ export default async function Home({
                         className="relative rounded-md p-4  dark:block "
                       />
                     </Link>
-                    <Link href="https://linchat.zizdlp.com/app/linchat.dmg">
+                    <Link href="https://apps.apple.com/app/id6472197439">
                       <Image
                         src="/download_dark_mac.svg"
                         alt="Picture of logo"
@@ -103,7 +103,7 @@ export default async function Home({
                     </div>
                   </div>
                   <div className="relative mt-16 flex flex-col sm:flex-row sm:justify-center lg:hidden">
-                    <Link href="itms-services://?action=download-manifest&url=https://linchat.zizdlp.com/app/manifest.plist">
+                    <Link href="https://apps.apple.com/app/id6472197439">
                       <Image
                         src="/download_dark_iphone.svg"
                         alt="Picture of logo"
@@ -112,7 +112,7 @@ export default async function Home({
                         className="relative rounded-md p-4  dark:block "
                       />
                     </Link>
-                    <Link href="https://linchat.zizdlp.com/app/linchat.dmg">
+                    <Link href="https://apps.apple.com/app/id6472197439">
                       <Image
                         src="/download_dark_mac.svg"
                         alt="Picture of logo"
@@ -232,7 +232,7 @@ export default async function Home({
                       <li>
                         <a
                           className="hover:text-slate-900 dark:hover:text-slate-300"
-                          href="https://github.com/zdlpsina/zizdlp"
+                          href="https://github.com/zizdlp"
                         >
                           GitHub
                         </a>
@@ -240,7 +240,7 @@ export default async function Home({
                       <li>
                         <a
                           className="hover:text-slate-900 dark:hover:text-slate-300"
-                          href="https://github.com/zdlpsina/zizdlp"
+                          href="https://space.bilibili.com/1448262500/"
                         >
                           Bilibili
                         </a>
@@ -248,7 +248,7 @@ export default async function Home({
                       <li>
                         <a
                           className="hover:text-slate-900 dark:hover:text-slate-300"
-                          href="https://github.com/zdlpsina/zizdlp"
+                          href="https://www.youtube.com/channel/UC9D6VAJRoG7bD38dz8F9CSg"
                         >
                           YouTube
                         </a>
@@ -261,14 +261,6 @@ export default async function Home({
                       {dictionary["home-page"]["Friends Link"]}
                     </h2>
                     <ul className="mt-3 space-y-2">
-                      <li>
-                        <a
-                          className="hover:text-slate-900 dark:hover:text-slate-300"
-                          href="https://linchat.zizdlp.com/ios"
-                        >
-                          LinChat APP
-                        </a>
-                      </li>
                       <li>
                         <a
                           className="hover:text-slate-900 dark:hover:text-slate-300"
@@ -295,7 +287,7 @@ export default async function Home({
                   className="md:mr-1 flex-none w-[1.8rem] overflow-hidden md:w-auto"
                 >
                   <Image
-                    src="/64.png"
+                    src="/60.png"
                     className="w-10 h-10 rounded-md"
                     alt="LOGO"
                     width={50}
